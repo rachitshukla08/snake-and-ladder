@@ -20,9 +20,7 @@ public class SnakeAndLadderProblem {
 		int diceCount=0;
 		//computation
 		
-		
 		while(playerPosition!=maxPosition) {
-			
 		dice = (int) Math.floor(Math.random()*10)%6;
 		dice = dice+1;
 		//Adding 1 to dice position as we get values 0 to 5 so we convert it to 1 to 6
@@ -50,8 +48,5 @@ public class SnakeAndLadderProblem {
 		diceCount++;
 		}
 		System.out.println("Number of times the dice was rolled: "+diceCount);
-		
-
 	}
-
 }
